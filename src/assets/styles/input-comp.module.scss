@@ -1,0 +1,19 @@
+@import './mixins/mixins.scss';
+
+.main {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2vh;
+  justify-content: space-between;
+
+  input{
+    @include wid_hei(25vw, 25px);
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  button{
+    width: 5vw;
+    height: 25px;
+  }
+}
